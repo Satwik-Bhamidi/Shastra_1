@@ -1,0 +1,28 @@
+venv/
+dist/
+build/
+__pycache__/
+.idea/
+.vscode/
+
+# Files
+*.py[cod]
+*$py.class
+*.db
+*.sqlite3
+.env
+.DS_Store
+*.log
+
+# PyInstaller Specific
+*.spec
+
+temp/
+
+# Large binary files
+Shastra_App
+Shastra_App.exe
+Shastra_new
+Shastra_new.exe
+updater
+updater.exe

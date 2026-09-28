@@ -1,0 +1,29 @@
+# GUI Framework
+PyQt5>=5.15.0
+
+# Computer Vision
+opencv-python-headless>=4.5.0
+numpy>=1.21.0
+
+# Image Processing
+Pillow>=8.0.0
+
+# HTTP Requests (for update system)
+requests>=2.25.0
+
+# Version comparison (for update system)
+packaging>=21.0
+
+# Secure credential storage (for GitHub token)
+# Uses OS keyring: GNOME Keyring (Linux), Windows Credential Manager, macOS Keychain
+keyring>=23.0.0
+
+# Report Generation
+reportlab>=3.6.0
+
+# PDF Preview/Rendering (optional but recommended for full preview support)
+PyMuPDF>=1.23.0
+
+# Password hashing - Argon2
+# Falls back to PBKDF2 if unavailable
+argon2-cffi>=21.0.0

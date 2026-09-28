@@ -1,0 +1,39 @@
+{
+  "app_name": "Shastra Proof Yard",
+  "version": "1.1.0",
+  "build_number": 100,
+  "release_date": "2025-12-25",
+  "release_channel": "stable",
+  "mandatory": false,
+  "min_supported_version": "1.0.0",
+  "download": {
+    "url": "file:///home/pavan/Desktop/ShastraUpdateSource/Shastra_App",
+    "size_bytes": 0,
+    "sha256": "",
+    "mirrors": [
+      "https://mirror1.your-server.com/releases/Shastra_1.0.0.exe",
+      "https://mirror2.your-server.com/releases/Shastra_1.0.0.exe"
+    ]
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-12-25",
+      "changes": [
+        "Initial release of Shastra Proof Yard",
+        "ArUco marker detection and perspective correction",
+        "Bullet hole detection with advanced thresholding",
+        "Session management and result generation",
+        "Customizable system configurations"
+      ]
+    }
+  ],
+  "system_requirements": {
+    "os": "Windows 10+",
+    "architecture": "x64",
+    "min_ram_mb": 4096
+  },
+  "update_notes": "This is the initial release. Future updates will be delivered automatically.",
+  "support_url": "https://your-server.com/support",
+  "privacy_policy_url": "https://your-server.com/privacy"
+}
